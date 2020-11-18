@@ -6,13 +6,13 @@
 <h3>Description</h3>
 This program takes a list of words and finds the biggest set of words
 within that list that are anagrams of each other. If this process
-finds that there are mpore than set of anagrams that meet this requirement
-then the last found set is returned
+finds that there is more than one set of anagrams that meet this requirement
+then the last found set is returned.
 
-There are two approaches to finding the largest set with corresponding methods
+There are two approaches taken to find the largest set of anagrams
 
-     1. LargestAnagramListFunctional() - functional extension method using LINQ
-     2. LargestAnagramList()           - imperative method
+     1. LargestAnagramListFunctional() - extension method using functional code (LINQ)
+     2. LargestAnagramList()           - extension method using imperative code
 
 <h3>Build</h3>
 
